@@ -2,7 +2,6 @@ source "http://rubygems.org"
 
 group :development do
   gem 'rake'
-  gem 'rack'
   gem 'jekyll'
   gem 'rdiscount'
   gem 'pygments.rb'
@@ -12,7 +11,6 @@ group :development do
   gem 'rubypants'
   gem 'rb-fsevent'
   gem 'stringex'
-  gem 'liquid', '2.2.2'
 end
 
 gem 'sinatra', '1.3.2'
