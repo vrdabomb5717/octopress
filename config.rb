@@ -4,6 +4,7 @@ project_type = :stand_alone
 # Publishing paths
 http_path = "/blog/"
 http_images_path = "/blog/images"
+http_generated_images_path = "/images"
 http_fonts_path = "/blog/fonts"
 css_dir = "public/blog/stylesheets"
 
@@ -11,6 +12,7 @@ css_dir = "public/blog/stylesheets"
 sass_dir = "sass"
 images_dir = "source/images"
 fonts_dir = "source/fonts"
+generated_images_dir = "source/images"
 
 line_comments = false
 output_style = :compressed
