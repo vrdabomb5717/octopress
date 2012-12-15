@@ -8,7 +8,7 @@ require 'rake/minify'
 ssh_user       = "varun@varnholm.com"
 ssh_port       = "22"
 document_root  = "~/varnholm.com/blog"
-rsync_delete   = true
+rsync_delete   = false
 deploy_default = "rsync"
 
 # Hidden "dot" files that should be included with the deployed site (see task copydot)
